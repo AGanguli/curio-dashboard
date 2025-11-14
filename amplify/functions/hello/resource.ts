@@ -4,7 +4,7 @@ export const hello = defineFunction({
   entry: "./handler.ts",
   name: "hello",
   description: "A simple hello world function",
-  runtime: "nodejs20.x",
+//  runtime: NodeVersion.NODEJS_20,
 //   memory: 1024,
 //   timeout: 30,
 //   environment: {
