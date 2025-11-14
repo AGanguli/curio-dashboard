@@ -1,6 +1,6 @@
 import type { Schema } from "../../data/resource";
 
-type handlerType = Schema["sayHello"]["functionHandler"];
+type handlerType = Schema["hello"]["functionHandler"];
 
 export const handler: handlerType = async (event: any, context: any) => {
     const { name } = event.arguments;
